@@ -24,13 +24,19 @@ First install nvm if you haven't already. You can check the [nvm readme] for a m
 [nvm readme]: https://github.com/creationix/nvm/blob/master/README.md#install-script
 
 ```sh
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 ```
 
-Then install fast-nvm-fish:
+Then install `fast-nvm-fish`:
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/brigand/fast-nvm-fish/master/nvm.fish > ~/.config/fish/functions/nvm.fish
+```
+
+Or using [fisherman](https://github.com/fisherman/fisherman):
+
+```sh
+fisher nvm
 ```
 
 The `fish_user_paths` [universal variable](https://fishshell.com/docs/current/tutorial.html#tut_universal) must exist before running `nvm` commands. Run this once in your fish shell:

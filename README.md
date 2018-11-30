@@ -33,10 +33,10 @@ Then install `fast-nvm-fish`:
 curl -sSL https://raw.githubusercontent.com/brigand/fast-nvm-fish/master/nvm.fish > ~/.config/fish/functions/nvm.fish
 ```
 
-Or using [fisherman](https://github.com/fisherman/fisherman):
+Or using [fisher](https://github.com/jorgebucaran/fisher):
 
 ```sh
-fisher nvm
+fisher add brigand/fast-nvm-fish
 ```
 
 The `fish_user_paths` [universal variable](https://fishshell.com/docs/current/tutorial.html#tut_universal) must exist before running `nvm` commands. Run this once in your fish shell:

@@ -8,6 +8,12 @@
 
 It's a utility that manipulates your PATH to include the desired version of node. Other solutions require parsing `env`'s output and do other slow things. Before this, there was an extra second or two added to my shell startup time. With about 10 versions of node installed this script takes 50ms to run.
 
+## Alternatives
+
+You can get even better performance, with a solution that works in fish/bash/zsh by using [fnm].
+
+[fnm]: https://github.com/Schniz/fnm
+
 ## Usage
 
 ```sh
